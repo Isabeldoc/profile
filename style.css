@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:wght@100&display=swap');
+
+body{
+  background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(0,0,0,1) 50%, rgb(0, 0, 0) 100%);
+  font-family:'Bebas Neue', sans-serif;
+  color: #838383;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+}
+
+h1{
+  color: #000000;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 30px;
+}
+
+h2{
+  color: #535353;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+h3{
+  color: #535353;
+  font-size: 25px;
+}
+
+a{
+  color: #a99e8a;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+ul{
+  list-style: none;
+  padding-left: 0px;
+  display: inline-block;
+}
+
+.fa-brands {
+  color: #d0d0d0;
+  display: inline-block;
+  font-size: 50px;
+}
+@media (max-width: 1900px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 600px;
+  margin: 0 auto;
+  margin-bottom:  10px;
+  margin-top:  20px;
+  }
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom:  10px;
+  margin-top:  20px;
+  }
+}
+
+
+.img_round{
+border-top-right-radius: 50%;
+  width: 380px;
+  height: 200px;
+  margin-bottom:  -24px;
+  margin-left:  -20px;
+}
+
+li{display: inline-block;
+  padding-right: 20px;
+  padding-left: 0px;
+  vertical-align: top;}
